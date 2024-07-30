@@ -5,11 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cup time - Корзина</title>
+  <link href="./css/index.css" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header" style="background-color: #6CB9AB;">
-    <div class="container">
+  <header class="header">
+    <div class="container header__container">
       <a class="header__logo-link" href="./">
         <img class="header__logo" src="./img/logo.svg" alt="Logo cup time">
       </a>
@@ -53,7 +54,7 @@
         <h2 class="cart__title title">Корзина (6)</h2>
 
         <ul class="cart__items items-cart">
-          
+
           <li class="items-cart__item cart-item">
             <img class="cart-item__image" src="./img/products/photo-2.jpg" alt="Кокосовая матча">
 
@@ -147,30 +148,30 @@
           <h3 class="cart__summary-title">Итого:</h3>
 
           <p class="cart__total">2200&nbsp;₽</p>
-          
+
           <button class="cart__order-button">Заказать</button>
         </div>
 
       </div>
     </section>
-    
+
     <section class="order">
       <div class="container">
         <h2 class="order__title title">Доставка</h2>
-    
+
         <form class="order__form order-form">
           <input class="order-form__input" type="text" name="name" placeholder="Имя">
           <input class="order-form__input" type="tel" name="phone" placeholder="Телефон">
           <input class="order-form__input order-form__input_address" type="text" name="address" placeholder="Адрес">
-    
+
           <fieldset class="order-form__payment">
             <h3 class="order-form__payment-title">Оплата:</h3>
-    
+
             <label class="order-form__payment-label">
               <input class="order-form__radio" type="radio" name="payment" value="card">
               Картой
             </label>
-    
+
             <label class="order-form__payment-label">
               <input class="order-form__radio" type="radio" name="payment" value="cash" checked>
               Наличные
@@ -182,7 +183,7 @@
 
   </main>
 
-  <footer class="footer" style="background-color: #6CB9AB;color: #fff;">
+  <footer class="footer">
     <div class="container footer__container">
       <a class="footer__logo-link">
         <img class="footer__logo" src="./img/logo.svg" alt="Logo cup time">
